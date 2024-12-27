@@ -32,7 +32,7 @@ b {
 }
 
 .hidden {
-    display: none !important;
+    display: none!important;
 }
 
 .color-primary {
@@ -44,14 +44,14 @@ a.navbar-brand {
 }
 
 .nav-link {
-    color: var(--color-black) !important;
-    padding-left: 35px !important; 
-    padding-right: 35px !important;
+    color: var(--color-black)!important;
+    padding-left: 35px!important; 
+    padding-right: 35px!important;
 }
 
 .btn-white {
     background-color: var(--color-white);
-    color: var(--color-black) !important;
+    color: var(--color-black)!important;
     border-radius: 20px;
     padding: 15px 25px;
     font-size: 20px;
@@ -104,7 +104,7 @@ a.navbar-brand {
 
 .btn-yellow {
     background-color: var(--color-primary);
-    color: var(--color-white) !important;
+    color: var(--color-white)!important;
     border-radius: 20px;
     padding: 15px 25px;
     font-size: 20px;
@@ -130,9 +130,9 @@ a.navbar-brand {
 }
 
 .btn-sm {
-    padding: 9px 15px !important;
-    border-radius: 15px !important;
-    font-size: 18px !important;
+    padding: 9px 15px!important;
+    border-radius: 15px!important;
+    font-size: 18px!important;
 }
 
 .btn-social {
@@ -149,7 +149,7 @@ a.navbar-brand {
     top: -80px;
 }
 
-.img-banner {
+.img-banner img {
     position: absolute;
     width: 570px;
     top: 30px;
@@ -159,8 +159,8 @@ a.navbar-brand {
 .card {
     border-radius: 20px;
     padding: 15px 20px;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1) !important;
-    border: none !important;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1)!important;
+    border: none!important;
 }
 
 .card-case {
@@ -326,7 +326,7 @@ a.navbar-brand {
 }
 
 .card-item:hover .price-produto {
-    color: var(--color-black-heavy) !important;
+    color: var(--color-black-heavy)!important;
     margin-top: 20px;
 }
 
@@ -345,8 +345,8 @@ a.navbar-brand {
 }
 
 .card-depoimentos {
-    height: 300px;
-    width: 300px;
+    height: 390px;
+    width: 390px;
     border-radius: 120px;
     background-color: var(--color-secondary);
     position: absolute;
@@ -358,7 +358,7 @@ a.navbar-brand {
 }
 
 .depoimento {
-    margin-top: 70px;;
+    margin-top: 70px;
 }
 
 .imagem-depoimento {
