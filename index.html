@@ -70,7 +70,7 @@
                                 <a class="btn btn-yellow mt-4 mr-3">
                                     Ver Cardápio
                                 </a>
-                                <a href="#" class="btn btn-white btn-icon-left mt-4">
+                                <a href="#" class="btn btn-white btn-icon-left mt-4" id="btnLigar">
                                     <span class="icon-left">
                                         <i class="fa fa-phone"></i>
                                     </span>
@@ -297,9 +297,9 @@
 
                         </div>
 
-                        <a class="btn btn-sm btn-white btn-social mr-3 active">1</a>
-                        <a class="btn btn-sm btn-white btn-social mr-3">2</a>
-                        <a class="btn btn-sm btn-white btn-social">3</a>
+                        <a id="btnDepoimento-1" onclick="cardapio.metodos.abrirDepoimento(1)" class="btn btn-sm btn-white btn-social mr-3 active">1</a>
+                        <a id="btnDepoimento-2" onclick="cardapio.metodos.abrirDepoimento(2)" class="btn btn-sm btn-white btn-social mr-3">2</a>
+                        <a id="btnDepoimento-3" onclick="cardapio.metodos.abrirDepoimento(3)" class="btn btn-sm btn-white btn-social">3</a>
 
                     </div>
 
@@ -324,7 +324,7 @@
                                         <br>
                                         Reserve sua data e horário de forma simples e rápida.
                                     </p>
-                                    <a class="btn btn-yellow mt-4">
+                                    <a class="btn btn-yellow mt-4" href="#" id="btnReserva" target="_blank">
                                         Fazer Reserva
                                     </a>
                                 </div>
