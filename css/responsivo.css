@@ -1,30 +1,29 @@
+
 /* Desktop (col-lg) 992px+ */
 @media (min-width: 992px) {
-    
-}
 
+}
 
 /* Desktop e Tablets (col-md) 768px a 991px */
 @media (min-width: 768px) and (max-width: 991px) {
-    
-}
 
+}
 
 /* Tablets (col-sm) 576px a 767px */
 @media (min-width: 576px) and (max-width: 767px) {
-    
+
 }
 
 /* Tablets e Celulares (col) 0px a 767px */
 @media (max-width: 767px) {
-   
+
     .no-mobile {
-        display: none !important;
+        display: none!important;
     }
 
     .col-one {
-        padding-left: 35px !important;
-        padding-right: 35px !important;
+        padding-left: 35px!important;
+        padding-right: 35px!important;
     }
 
     .navbar-toggler-icon {
@@ -46,10 +45,10 @@
         padding-right: 20px;
     }
 
-    .navbar-collapse .btn-white span.icon {
+    .navbar-collapse .btn-icon span.icon {
         display: none;
     }
-    
+
     .banner {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -59,7 +58,7 @@
         font-size: 36px;
     }
 
-     .text-banner p {
+    .text-banner p {
         font-size: 18px;
     }
 
@@ -74,8 +73,8 @@
         margin-left: -56px;
     }
 
-    .btn-icon-left  {
-        padding-left: 63px;
+    .btn-icon-left {
+        padding-left: 63px!important;
     }
 
     .title {
@@ -99,7 +98,7 @@
 
     .img-produto {
         position: absolute;
-        left: 15px;
+        left: 15px
     }
 
     .card-item {
@@ -114,16 +113,16 @@
     }
 
     .title-produto {
-        margin-top: 0px !important;
-        height: 30px !important;
+        margin-top: 0px!important;
+        height: 30px!important;
         width: 100%;
-        text-align: left !important;
+        text-align: left!important;
     }
 
     .price-produto {
-        margin-bottom: 0px !important;
-        margin-top: 0px !important;
-        font-size: 22px !important;
+        margin-bottom: 0px!important;
+        margin-top: 0px!important;
+        font-size: 22px!important;
     }
 
     .card-item .add-carrinho {
@@ -131,7 +130,7 @@
     }
 
     #itensCardapio .mb-5 {
-        margin-bottom: 15px !important;
+        margin-bottom: 15px!important;
     }
 
     .depoimentos {
@@ -157,7 +156,7 @@
 
     .container-redes-footer {
         margin-top: 40px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         justify-content: center;
     }
 
@@ -166,35 +165,35 @@
     }
 
     .modal-full .item-carrinho {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .modal-full .img-produto {
         position: relative;
-        left: 0px;        
+        left: 0;
     }
 
-     .modal-full .img-produto img {
+    .modal-full .img-produto img {
         width: 50px;
-     }
+    }
 
-      .modal-full .dados-produto {
+    .modal-full .dados-produto {
         padding-left: 15px;
         padding-right: 15px;
         display: grid;
     }
 
-     .modal-full .title-produto, .modal-full .price-produto {
-        font-size: 16px !important;
-     }
+    .modal-full .title-produto, .modal-full .price-produto {
+        font-size: 16px!important;
+    }
 
-     .modal-full .add-numero-itens {
+    .modal-full .add-numero-itens {
         padding: 2px 10px;
-     }
+    }
 
-     .modal-full .form-control {
+    .modal-full .form-control {
         font-size: 16px;
-     }
+    }
 
 }

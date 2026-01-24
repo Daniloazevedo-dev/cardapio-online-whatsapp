@@ -478,10 +478,10 @@ footer {
 
 .modal-full {
     position: fixed;
-    top: 0px;   
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding: 50px;
     background: var(--color-white);
     z-index: 9990;
@@ -492,7 +492,7 @@ footer {
 }
 
 .m-header {
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
 }
 
 .m-body {
@@ -503,15 +503,15 @@ footer {
 
 .m-body::-webkit-scrollbar {
     width: 6px;
-    background-color: transparent;
+    background: transparent;
 }
 
 .m-body::-webkit-scrollbar-thumb {
-    background-color: var(--color-white);
+    background: var(--color-white);
 }
 
 .m-body::-webkit-scrollbar-track {
-    background-color: transparent;
+    background: transparent;
 }
 
 .etapas {
@@ -544,13 +544,13 @@ footer {
     content: none;
 }
 
-.etapa.active, .etapa.active::before {
+.etapa.active, .etapa.active::before  {
     background-color: var(--color-primary);
 }
 
 .title-carrinho {
-    color: var(--color-black);
     font-size: 20px;
+    color: var(--color-black);
 }
 
 .modal-full .item-carrinho {
@@ -566,7 +566,7 @@ footer {
     border-bottom: none;
 }
 
-.modal-full .item-carrinho img {
+.modal-full .img-produto img {
     width: 100px;
     border-radius: 11px;
 }
@@ -577,13 +577,13 @@ footer {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .modal-full .price-produto {
     color: var(--color-primary);
     font-size: 24px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .modal-full .dados-produto {
@@ -611,18 +611,18 @@ footer {
 }
 
 .container-total {
-    padding: 20px;
+    padding-top: 20px;
     border-top: 1px solid var(--color-separate);
 }
 
-.container-total  .texto-entrega {
+.container-total .texto-entrega {
     color: var(--color-separate);
 }
 
 .container-total .texto-total {
-   color: var(--color-black);
-   font-size: 20px;
-   margin-top: 10px; 
+    color: var(--color-black);
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .container-total .valor-total {
@@ -659,9 +659,9 @@ select.form-control {
     border-radius: 11px;
 }
 
-.item-carrinho resumo {
+.item-carrinho.resumo {
     padding-top: 10px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
 }
 
 .title-produto-resumo {
@@ -670,19 +670,19 @@ select.form-control {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .price-produto-resumo {
     color: var(--color-primary);
     font-size: 16px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .quantidade-produto-resumo {
     color: var(--color-black);
     font-size: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .img-map {
@@ -698,12 +698,12 @@ select.form-control {
 }
 
 .texto-endereco {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color: var(--color-black);
 }
 
 .cidade-endereco {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .badge-total-carrinho {
@@ -722,7 +722,7 @@ select.form-control {
 }
 
 .botao-carrinho {
-    position: fixed; 
+    position: fixed;
     right: 30px;
     bottom: 50px;
     height: 50px;
@@ -731,9 +731,9 @@ select.form-control {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20PX;
+    font-size: 20px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-    color: var(--color-black-heavy) !important;
+    color: var(--color-black-heavy)!important;
     border-radius: 50px;
     cursor: pointer;
     z-index: 1;
@@ -750,7 +750,7 @@ select.form-control {
     color: var(--color-white);
     padding: 10px 25px;
     font-size: 18px;
-    border-radius: 50px;
+    border-radius: 15px;
     margin-bottom: 10px;
 }
 
